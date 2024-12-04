@@ -9,7 +9,7 @@ This is a simple implementation of the classic Tic Tac Toe game using HTML, CSS,
 - **Responsive Design**: Works on desktops, tablets, and mobile devices.
 - **Restart Option**: Restart the game anytime with a single click.
 
-Technologies Used
+## Technologies Used
 - HTML: Structure of the game board.
 - CSS: Styling and layout.
 - JavaScript: Game logic and interactivity.
