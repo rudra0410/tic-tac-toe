@@ -10,8 +10,7 @@ This is a simple implementation of the classic Tic Tac Toe game using HTML, CSS,
 - **Restart Option**: Restart the game anytime with a single click.
 
 ## Demo
-![Tic Tac Toe Screenshot](assets/demo.png)  
-*Note: Include a screenshot of the game in the `assets` folder.*
+![Tic Tac Toe Video](assets/sr.mp4)  
 
 ## How to Play
 1. Player X and Player O take turns to place their marks (X or O) in an empty cell.
