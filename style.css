@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
+
+@font-face {
+    font-family: 'myFont';
+    src: url(/knight-warrior/Knight\ Warrior.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'myFont'; 
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 4px;
+}
+
+body {
+    background-color: #190d32;
+    background-image: url(/img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1500px, 100vw);
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.box {
+    height: 14vmin;
+    width: 14vmin;
+    border-radius: 12px;
+    border: 2px solid #1dc9f2;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.57);
+    font-size: 10vmin;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: rgba(95, 67, 67, 0.063);
+}
+
+#reset-btn {
+    padding: 10px 29px;
+    font-size: 1.25rem;
+    border-radius: 12px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.49);
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#new-btn {
+    padding: 10px 40px;
+    font-size: 1.25rem;
+    border-radius: 12px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.49);
+
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+#msg {
+    color: white;
+    font-size: 4vmin;
+}
+
+.msg-container {
+    height: auto;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width:500px) {
+    body {
+        background-color: #190d32;
+        background-image: url(/img.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: max(1700px, 1vw);
+        text-align: center;
+    }
+
+    .game {
+        height: 90vmin;
+        width: 64vmin;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px 8px;
+    }
+    
+    .box {
+        height: 18vmin;
+        width: 18vmin;
+        border-radius: 12px;
+        border: 2px solid #1dc9f2;
+        color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.57);
+        font-size: 10vmin;
+        font-weight: 700;
+        cursor: pointer;
+        background-color: rgba(95, 67, 67, 0.063);
+    }
+
+    #reset-btn {
+        padding: 11px 35px;
+        font-size: 1.25rem;
+        border-radius: 12px;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.49);
+        color: white;
+        font-size: 30px;
+        font-weight: 900;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+
+    #new-btn {
+        padding: 10px 40px;
+        font-size: 1.25rem;
+        border-radius: 12px;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.49);
+        color: white;
+        font-size: 25px;
+        font-weight: 900;
+        cursor: pointer;
+    }
+
+    #msg {
+        color: white;
+        font-size: 10vmin;
+    }
+
+    .msg-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 11px;
+    }
+
+    .hide {
+        display: none;
+    }
+}
